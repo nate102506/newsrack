@@ -9,10 +9,28 @@ categories_sort: List[str] = []
 # Example: https://github.com/ping/newsrack-fork-test/blob/custom/_recipes_custom.py
 
 recipes: List[Recipe] = [
-    # Recipe(
-    #     recipe="example",
-    #     slug="example",
-    #     src_ext="epub",
-    #     category="example",
-    # ),
+    Recipe(
+        recipe="atlantic-magazine",
+        slug="atlantic-magazine",
+        src_ext="epub",
+        category="news"
+    ),
+    Recipe(
+        recipe="atlantic",
+        slug="atlantic-web",
+        src_ext="epub",
+        category="news"
+    ),
+    Recipe(
+        recipe="atlantic",
+        slug="atlantic-web",
+        src_ext="epub",
+        category="news"
+    ),
+    Recipe(
+        recipe="The Economist",
+        slug="economist",
+        src_ext="epub",
+        category="news"
+    ),
 ]
