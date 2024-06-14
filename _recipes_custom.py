@@ -33,4 +33,10 @@ recipes: List[Recipe] = [
         src_ext="epub",
         category="news"
     ),
+    Recipe(
+        recipe="nytimes-global",
+        slug="nytimes-global",
+        src_ext="epub",
+        category="news"
+    ),
 ]
